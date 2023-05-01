@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid #222;
+  background-color: sandybrown;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+#check {
+  display: none;
+}
+
+.checkbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.text p {
+  font-size: 30px;
+  color: #fff;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  top: 100px;
+  position: absolute;
+  left: -100%;
+}
+
+#check:checked ~ ul{
+  background-color: blueviolet;
+  left: 0;
+}
+
+section {
+  height: 300px;
+}
+
+.raf {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+  
